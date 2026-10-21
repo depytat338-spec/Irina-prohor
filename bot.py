@@ -34,12 +34,12 @@ from groq import AsyncGroq
 
 # Впишите свои значения прямо сюда — переменные окружения не нужны.
 # Замените текстовые примеры на свои настоящие значения.
-BOT_TOKEN = "ВСТАВЬТЕ_СЮДА_ТОКЕН_TELEGRAM"
-GROQ_API_KEY = "ВСТАВЬТЕ_СЮДА_API_КЛЮЧ_GROQ"
-ADMIN_ID = 123456789  # замените на свой числовой Telegram ID
+BOT_TOKEN = os.getenv("API_TOKEN")
+GROQ_API_KEY = ""
+ADMIN_ID = 275112551  # замените на свой числовой Telegram ID
 
 # Ссылка на канал (кнопка «Наш канал» в главном меню).
-CHANNEL_URL = "https://t.me/ВАШ_КАНАЛ"  # замените на ссылку вашего канала
+CHANNEL_URL = "https://t.me/irinaprokhorchuk"  # замените на ссылку вашего канала
 
 ADMIN_IDS = {ADMIN_ID}
 
